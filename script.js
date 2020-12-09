@@ -35,7 +35,7 @@ function decrement() {
 function addElement() {
     const container = document.getElementById("container") ;
    const inputEl = document.getElementById("input") ;
-   let newElement = document.createElement("p")
+   let newElement = document.createElement("li")
    newElement.innerText = inputEl.value ;
    newElement.setAttribute("onclick" ,"removeElement(this)");
     container.appendChild(newElement);

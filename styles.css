@@ -19,8 +19,9 @@ h1 {
     background: linear-gradient(to left,#43cea2 , #185a9d);
     line-height: 32px;
 }
-.container p {
+.container li {
     text-align: left;
+    margin-left: 30px;
 }
 .container input {
     margin-bottom: 30px;
